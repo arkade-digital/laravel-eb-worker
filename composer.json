@@ -14,5 +14,5 @@
                 "Arkade\\ElasticBeanstalkWorker\\ServiceProvider"
             ]
         }
-    },
+    }
 }
