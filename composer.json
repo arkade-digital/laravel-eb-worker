@@ -1,0 +1,18 @@
+{
+    "name": "arkade/laravel-eb-worker",
+    "description": "Elastic Beanstalk worker for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arkade\\ElasticBeanstalkWorker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arkade\\ElasticBeanstalkWorker\\ServiceProvider"
+            ]
+        }
+    },
+}
